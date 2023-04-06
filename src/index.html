@@ -16,15 +16,15 @@
     <title>MailerLite</title>
   </head>
   <body
-    class="bg-[#060914] w-full max-w-6xl m-auto font-family: 'Clash Display', sans-serif;"
+    class="bg-[#060914] w-full max-w-6xl m-auto font-['Clash_Display']"
   >
 
     <!-- Starting the navigation bar or menu -->
-    <nav class="mt-12 pb-8 flex items-center justify-between border-b-[0.5px] border-b-[#414962]">
+    <nav class="mt-10 pb-8 flex items-center justify-between border-b-[0.5px] border-b-[#414962]">
 
       <div class="text-3xl flex items-center gap-4">
-        <a href="#"><i class="bx bx-menu" style="color: #ffffff"></i></a>
-        <a href="#"><i class="bx bx-search-alt-2" style="color: #ffffff"></i></a>
+        <a href="#"><i class="bx bx-menu" style="color: #8C8C8C"></i></a>
+        <a href="#"><i class="bx bx-search-alt-2" style="color: #8C8C8C"></i></a>
       </div>
 
       <div>
@@ -32,7 +32,7 @@
       </div>
 
       <div class="text-white flex items-center gap-4">
-        <a href="#">Login</a>
+        <a class="text-[#8C8C8C]" href="#">Login</a>
         <button class="bg-gradient-to-r from-blue-400 to-blue-800 px-6 py-2 rounded-full">Sign Up</button>
       </div>
     </nav>
@@ -41,9 +41,60 @@
 
     <!-- Starting the header of the webpage -->
 
-    <header></header>
+    <header class="text-center mt-[103px] flex-col ">
+        <div>
+            <h1 class="text-8xl text-white max-w-5xl m-auto font-medium">Turn Emails Into Revenue</h1>
+        </div>
 
-    <main></main>
+        <div>
+            <p class="text-2xl font-normal text-[#8C8C8C] mt-6">Built an efficient method of reaching out more <br> customers by boosting your email marketing</p>
+        </div>
+
+        <div class="mt-16 border-b-[0.5px] border-b-[#414962]">
+            <img class="w-[836px]  m-auto" src="/images/Interface Basics.png" alt="Interface basics">
+        </div>
+    </header>
+
+    <div class="flex items-center gap-3 justify-center -m-6">
+      <button class="bg-gradient-to-r from-blue-400 to-blue-800 px-6 py-2 rounded-full">Get Started</button>
+      <img class="w-10" src="/images/beside the button.png" alt="Logo besudes the button">
+    </div>
+
+
+
+
+    <!-- Starting the main part and sections -->
+    <main>
+      <section id="first-section" class="mt-28 border-b-[0.5px] border-b-[#414962] pb-24">
+        <header class="grid grid-cols-2 items-center justify-between">
+          <h1 class="text-[56px] font-medium text-white">
+            Advance Marketing Solution
+          </h1>
+
+          <p class="text-2xl text-[#8C8C8C]">
+            Built an efficient method of reaching out more customers by boosting your email marketing your email marketing your email marketing
+          </p>
+        </header>
+
+        <div id="cards" class="flex items-center justify-between mt-16">
+          <div id="first-card" class="bg-[#0A1123] h-[360px] w-[360px] rounded-2xl flex flex-col justify-center items-center">
+            <img class="w-24" src="/images/device-message.png" alt="Computer device">
+            <h4 class="text-3xl font-normal text-[#A6A6A6]">SMS & Self <br> Employed</h4>
+          </div>
+
+          <div id="second-card" class="bg-[#0A1123] h-[360px] w-[360px] rounded-2xl flex flex-col justify-center items-center">
+            <img class="w-24" src="/images/buliding.png" alt="Computer device">
+            <h4 class="text-3xl font-normal text-[#A6A6A6]">Enterprise<br>Special</h4>
+          </div>
+
+          <div id="third-card" class="bg-[#0A1123] h-[360px] w-[360px] rounded-2xl flex flex-col justify-center items-center">
+            <img class="w-24" src="/images/profile-2user.png" alt="Computer device">
+            <h4 class="text-3xl font-normal text-[#A6A6A6]">Start-Up<br>Special</h4>
+          </div>
+        </div>
+
+      </section>
+    </main>
 
     <footer></footer>
   </body>
