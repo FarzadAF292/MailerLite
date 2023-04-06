@@ -516,6 +516,22 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.fixed {
+  position: fixed;
+}
+
+.col-span-5 {
+  grid-column: span 5 / span 5;
+}
+
+.col-span-7 {
+  grid-column: span 7 / span 7;
+}
+
+.col-span-6 {
+  grid-column: span 6 / span 6;
+}
+
 .-m-6 {
   margin: -1.5rem;
 }
@@ -566,6 +582,22 @@ video {
   margin-top: 7rem;
 }
 
+.mt-52 {
+  margin-top: 13rem;
+}
+
+.mt-48 {
+  margin-top: 12rem;
+}
+
+.ml-10 {
+  margin-left: 2.5rem;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
 .flex {
   display: flex;
 }
@@ -576,6 +608,10 @@ video {
 
 .h-\[360px\] {
   height: 360px;
+}
+
+.h-\[388px\] {
+  height: 388px;
 }
 
 .w-10 {
@@ -602,6 +638,14 @@ video {
   width: 6rem;
 }
 
+.w-auto {
+  width: auto;
+}
+
+.w-\[410px\] {
+  width: 410px;
+}
+
 .max-w-5xl {
   max-width: 64rem;
 }
@@ -614,6 +658,10 @@ video {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.grid-cols-12 {
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
 .flex-row {
   flex-direction: row;
 }
@@ -622,12 +670,24 @@ video {
   flex-direction: column;
 }
 
+.items-start {
+  align-items: flex-start;
+}
+
 .items-end {
   align-items: flex-end;
 }
 
 .items-center {
   align-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-end {
+  justify-content: flex-end;
 }
 
 .justify-center {
@@ -652,6 +712,16 @@ video {
 
 .gap-6 {
   gap: 1.5rem;
+}
+
+.gap-7 {
+  gap: 1.75rem;
+}
+
+.space-x-7 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1.75rem * var(--tw-space-x-reverse));
+  margin-left: calc(1.75rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .self-end {
@@ -720,8 +790,16 @@ video {
   padding-bottom: 6rem;
 }
 
+.text-left {
+  text-align: left;
+}
+
 .text-center {
   text-align: center;
+}
+
+.text-start {
+  text-align: start;
 }
 
 .font-\[\'Clash_Display\'\] {
@@ -753,6 +831,14 @@ video {
 
 .font-normal {
   font-weight: 400;
+}
+
+.leading-\[64px\] {
+  line-height: 64px;
+}
+
+.leading-\[96px\] {
+  line-height: 96px;
 }
 
 .text-\[\#8C8C8C\] {
