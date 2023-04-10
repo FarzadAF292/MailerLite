@@ -572,6 +572,10 @@ video {
   margin-top: 103px;
 }
 
+.mt-12 {
+  margin-top: 3rem;
+}
+
 .flex {
   display: flex;
 }
@@ -594,6 +598,10 @@ video {
 
 .h-\[62px\] {
   height: 62px;
+}
+
+.h-\[954px\] {
+  height: 954px;
 }
 
 .w-10 {
@@ -853,6 +861,10 @@ video {
   padding-bottom: 3rem;
 }
 
+.pl-12 {
+  padding-left: 3rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -896,6 +908,15 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-\[40px\] {
+  font-size: 40px;
 }
 
 .font-medium {
